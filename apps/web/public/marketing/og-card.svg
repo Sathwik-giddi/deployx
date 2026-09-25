@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">DEPLOYX open source project card</title>
+  <desc id="desc">A social preview card for DEPLOYX, an open-source deployment operations workspace.</desc>
+  <rect width="1200" height="630" fill="#eceee8"/>
+  <rect x="28" y="28" width="1144" height="574" rx="24" fill="#fcfbf7" stroke="#7d8a82" stroke-width="2"/>
+  <rect x="28" y="28" width="1144" height="72" rx="24" fill="#a13e1b"/>
+  <path d="M28 76H1172V100H28Z" fill="#a13e1b"/>
+  <text x="72" y="74" font-family="Aptos, sans-serif" font-size="22" font-weight="800" fill="#ffffff">DEPLOYX</text>
+  <text x="1128" y="74" text-anchor="end" font-family="SFMono-Regular, monospace" font-size="14" fill="#ffffff">OPEN SOURCE / SIMULATION-FIRST</text>
+  <text x="72" y="190" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#17211f">Make an unfamiliar</text>
+  <text x="72" y="252" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#17211f">environment legible.</text>
+  <text x="72" y="304" font-family="Aptos, sans-serif" font-size="21" fill="#56635d">Discovery, integration, preflight, canary, and incident operations.</text>
+  <rect x="72" y="350" width="480" height="172" rx="16" fill="#f6f5f0" stroke="#7d8a82" stroke-width="2"/>
+  <text x="98" y="386" font-family="SFMono-Regular, monospace" font-size="14" fill="#56635d">CUSTOMER GRAPH / ACME SIMULATION</text>
+  <path d="M150 466H470" stroke="#7d8a82" stroke-width="2"/>
+  <path d="M190 466C242 426 274 426 326 466" fill="none" stroke="#a13e1b" stroke-width="3"/>
+  <path d="M326 466C378 506 410 506 462 466" fill="none" stroke="#a86e10" stroke-width="3"/>
+  <rect x="162" y="444" width="74" height="42" rx="7" fill="#fcfbf7" stroke="#7d8a82"/>
+  <text x="199" y="470" text-anchor="middle" font-family="Aptos" font-size="12" font-weight="700" fill="#17211f">DB</text>
+  <rect x="300" y="444" width="88" height="42" rx="7" fill="#fcfbf7" stroke="#7d8a82"/>
+  <text x="344" y="470" text-anchor="middle" font-family="Aptos" font-size="12" font-weight="700" fill="#17211f">Orders</text>
+  <rect x="438" y="444" width="88" height="42" rx="7" fill="#f4e8cd" stroke="#a86e10" stroke-width="2"/>
+  <text x="482" y="470" text-anchor="middle" font-family="Aptos" font-size="12" font-weight="700" fill="#704809">CRM</text>
+  <rect x="700" y="176" width="376" height="346" rx="18" fill="#17211f"/>
+  <text x="730" y="220" font-family="SFMono-Regular, monospace" font-size="14" fill="#c2cbc2">DEPLOYMENT BOUNDARY</text>
+  <text x="730" y="270" font-family="Aptos, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Evidence before promotion.</text>
+  <text x="730" y="310" font-family="Aptos, sans-serif" font-size="16" fill="#c2cbc2">Typed resources. Human decisions.</text>
+  <path d="M730 352H1038" stroke="#48514f" stroke-width="2"/>
+  <text x="730" y="390" font-family="SFMono-Regular, monospace" font-size="14" fill="#f3a37e">01  DISCOVER</text>
+  <text x="730" y="428" font-family="SFMono-Regular, monospace" font-size="14" fill="#f3a37e">02  RECONCILE</text>
+  <text x="730" y="466" font-family="SFMono-Regular, monospace" font-size="14" fill="#f3a37e">03  VALIDATE</text>
+  <text x="72" y="574" font-family="Aptos, sans-serif" font-size="16" font-weight="700" fill="#17211f">github.com/Sathwik-giddi/deployx</text>
+</svg>

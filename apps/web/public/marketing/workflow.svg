@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">DEPLOYX operator workflow diagram</title>
+  <desc id="desc">A six-step operator workflow from environment discovery through reusable deployment memory.</desc>
+  <style>
+    .panel { fill: #fcfbf7; stroke: #7d8a82; stroke-width: 2; }
+    .soft { fill: #f6f5f0; stroke: #c2cbc2; stroke-width: 2; }
+    .line { fill: none; stroke: #a13e1b; stroke-width: 4; }
+    .label { font: 600 15px Aptos, Segoe UI, sans-serif; fill: #56635d; }
+    .small { font: 13px SFMono-Regular, Cascadia Code, monospace; fill: #56635d; }
+    .heading { font: 700 24px Georgia, serif; fill: #17211f; }
+    .ink { fill: #17211f; }
+  </style>
+  <rect width="1600" height="720" fill="#eceee8"/>
+  <rect x="44" y="44" width="1512" height="632" rx="22" class="panel"/>
+  <text x="92" y="108" class="heading">From unfamiliar estate to reusable pattern</text>
+  <text x="92" y="140" class="label">Every step leaves evidence for the next operator.</text>
+  <path d="M170 340H1430" class="line"/>
+  <g>
+    <circle cx="170" cy="340" r="48" fill="#a13e1b"/>
+    <text x="170" y="348" text-anchor="middle" font-family="Aptos" font-size="18" font-weight="800" fill="#ffffff">01</text>
+    <text x="170" y="240" text-anchor="middle" class="heading">Discover</text>
+    <text x="170" y="270" text-anchor="middle" class="small">resources + edges</text>
+    <rect x="78" y="430" width="184" height="92" rx="10" class="soft"/>
+    <text x="170" y="462" text-anchor="middle" class="label">Cloud, data, identity</text>
+    <text x="170" y="488" text-anchor="middle" class="small">blast radius visible</text>
+  </g>
+  <g>
+    <circle cx="424" cy="340" r="48" fill="#f7e5dc" stroke="#a13e1b" stroke-width="3"/>
+    <text x="424" y="348" text-anchor="middle" font-family="Aptos" font-size="18" font-weight="800" fill="#a13e1b">02</text>
+    <text x="424" y="240" text-anchor="middle" class="heading">Reconcile</text>
+    <text x="424" y="270" text-anchor="middle" class="small">mappings + contracts</text>
+    <rect x="332" y="430" width="184" height="92" rx="10" class="soft"/>
+    <text x="424" y="462" text-anchor="middle" class="label">Human review</text>
+    <text x="424" y="488" text-anchor="middle" class="small">evidence attached</text>
+  </g>
+  <g>
+    <circle cx="678" cy="340" r="48" fill="#f7e5dc" stroke="#a13e1b" stroke-width="3"/>
+    <text x="678" y="348" text-anchor="middle" font-family="Aptos" font-size="18" font-weight="800" fill="#a13e1b">03</text>
+    <text x="678" y="240" text-anchor="middle" class="heading">Validate</text>
+    <text x="678" y="270" text-anchor="middle" class="small">compatibility gates</text>
+    <rect x="586" y="430" width="184" height="92" rx="10" class="soft"/>
+    <text x="678" y="462" text-anchor="middle" class="label">Network, IAM, schema</text>
+    <text x="678" y="488" text-anchor="middle" class="small">remediation recorded</text>
+  </g>
+  <g>
+    <circle cx="932" cy="340" r="48" fill="#f7e5dc" stroke="#a13e1b" stroke-width="3"/>
+    <text x="932" y="348" text-anchor="middle" font-family="Aptos" font-size="18" font-weight="800" fill="#a13e1b">04</text>
+    <text x="932" y="240" text-anchor="middle" class="heading">Promote</text>
+    <text x="932" y="270" text-anchor="middle" class="small">canary + rollback</text>
+    <rect x="840" y="430" width="184" height="92" rx="10" class="soft"/>
+    <text x="932" y="462" text-anchor="middle" class="label">1 / 5 / 25 / 50 / 100</text>
+    <text x="932" y="488" text-anchor="middle" class="small">threshold decides</text>
+  </g>
+  <g>
+    <circle cx="1186" cy="340" r="48" fill="#f4e8cd" stroke="#a86e10" stroke-width="3"/>
+    <text x="1186" y="348" text-anchor="middle" font-family="Aptos" font-size="18" font-weight="800" fill="#704809">05</text>
+    <text x="1186" y="240" text-anchor="middle" class="heading">Respond</text>
+    <text x="1186" y="270" text-anchor="middle" class="small">evidence + action</text>
+    <rect x="1094" y="430" width="184" height="92" rx="10" class="soft"/>
+    <text x="1186" y="462" text-anchor="middle" class="label">Incident workspace</text>
+    <text x="1186" y="488" text-anchor="middle" class="small">human remains in control</text>
+  </g>
+  <g>
+    <circle cx="1440" cy="340" r="48" fill="#17211f"/>
+    <text x="1440" y="348" text-anchor="middle" font-family="Aptos" font-size="18" font-weight="800" fill="#ffffff">06</text>
+    <text x="1440" y="240" text-anchor="middle" class="heading">Remember</text>
+    <text x="1440" y="270" text-anchor="middle" class="small">patterns + tests</text>
+    <rect x="1348" y="430" width="184" height="92" rx="10" fill="#17211f"/>
+    <text x="1440" y="462" text-anchor="middle" font-family="Aptos" font-size="14" font-weight="700" fill="#ffffff">Deployment memory</text>
+    <text x="1440" y="488" text-anchor="middle" class="small" fill="#c2cbc2">next start point</text>
+  </g>
+  <text x="92" y="618" class="small">SIMULATION-FIRST WORKFLOW / NO IMPLICIT PRODUCTION ACTION</text>
+</svg>

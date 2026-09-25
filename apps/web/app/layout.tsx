@@ -4,7 +4,10 @@ import { AppShell } from "@/components/app-shell";
 import { WorkspaceProvider } from "@/app/providers";
 import "./globals.css";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
 export const metadata: Metadata = {
+  ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
   title: {
     default: "DEPLOYX | Deployment operations",
     template: "%s | DEPLOYX",

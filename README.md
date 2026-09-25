@@ -6,6 +6,18 @@ The repository contains a Next.js operations console, a typed FastAPI control pl
 
 > ACME is a fictional customer used throughout the project. The current implementation uses deterministic local fixtures. It does not connect to customer infrastructure and does not execute deployments.
 
+## Product visuals
+
+The following original vector previews are included for documentation, demos, and marketing. They are product visuals based on the simulation workspace, not screenshots of a live customer environment.
+
+![DEPLOYX operations console preview](apps/web/public/marketing/console-preview.svg)
+
+![DEPLOYX architecture showing discovery, customer graph, compatibility, integration, deployment, release evidence, incident, and memory layers](apps/web/public/marketing/architecture.svg)
+
+![DEPLOYX operator workflow](apps/web/public/marketing/workflow.svg)
+
+The asset guide, captions, demo script, and social copy live in [docs/marketing/MARKETING.md](docs/marketing/MARKETING.md). When the web app is running, the public marketing page is available at `/marketing`.
+
 ## What it demonstrates
 
 - **Environment discovery:** represent cloud accounts, Kubernetes clusters, APIs, databases, identity providers, SaaS systems, and internal services as typed resources.
@@ -79,6 +91,8 @@ pnpm lint
 pnpm typecheck
 pnpm build
 ```
+
+Set `NEXT_PUBLIC_SITE_URL` in the deployment environment when the site is hosted somewhere other than localhost. The marketing page uses it to build absolute social preview metadata.
 
 ### FastAPI control plane
 

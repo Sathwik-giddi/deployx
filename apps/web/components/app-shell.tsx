@@ -7,6 +7,7 @@ import { useWorkspace } from "@/app/providers";
 import { CommandMenu } from "@/components/command-menu";
 import { EnvironmentNotice } from "@/components/environment-notice";
 import { EnvironmentSwitcher } from "@/components/environment-switcher";
+import { MarketingShell } from "@/components/marketing-shell";
 import { navigationGroups } from "@/lib/navigation";
 
 export function AppShell({ children }: { children: ReactNode }) {
@@ -88,6 +89,11 @@ export function AppShell({ children }: { children: ReactNode }) {
   }, [mobileOpen]);
 
   const isActive = (href: string) => (href === "/" ? pathname === href : pathname.startsWith(href));
+  const isMarketing = pathname === "/marketing" || pathname.startsWith("/marketing/");
+
+  if (isMarketing) {
+    return <MarketingShell>{children}</MarketingShell>;
+  }
 
   return (
     <div className="min-h-screen bg-canvas text-ink">
