@@ -1,0 +1,16 @@
+{
+  "name": "deployx",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "dev": "pnpm --filter @deployx/web dev",
+    "build": "pnpm --filter @deployx/web build",
+    "lint": "pnpm --filter @deployx/web lint",
+    "typecheck": "pnpm --filter @deployx/web typecheck"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  }
+}
